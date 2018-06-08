@@ -1,0 +1,112 @@
+
+
+  body {
+  	margin: 0;
+  	background: #B3B3B3;
+    font-family: 'Montserrat Alternates', sans-serif;
+  	font-weight: 400;
+  }
+
+  .container {
+  	width: 100%;
+  	margin: 0 auto;
+  }
+
+  header {
+    background: white;
+  }
+
+  figure {
+padding-top: 30px;
+padding-bottom: 30px;
+
+      }
+
+  header::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+  .logo{width: 216px; height:72px; background-color: white; background-image: url("../img/mylogo.png");background-size: contain; text-indent: -50em; background-repeat: no-repeat;
+
+    float: left;
+    padding: 10px 0;
+    margin-left: -1em;
+
+  }
+
+  nav {
+    float: right;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+
+    position: relative;
+  }
+
+  nav a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+
+  }
+
+  nav a:hover {
+    color: #00A99D;
+
+  }
+
+  nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #444;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+  }
+
+  nav a:hover::before {
+    width: 100%;
+  }
+
+
+
+  .tealiconcolor {color:#00A99D;}
+  .whitecolor{color: white;
+  margin-left: 1em;
+  padding-top: .6em;
+  margin-bottom: 0em;}
+
+
+  .footerspecs{background: #222;
+  padding-left: 1.3em;}
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3{
+  font-size:40px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bold;
+}
+
+figure a:hover {
+opacity: .5;
+}
